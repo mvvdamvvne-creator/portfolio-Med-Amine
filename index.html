@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Med Amine — Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="wrapper">
+        <section class="hero">
+            <div class="content">
+                <p class="eyebrow">Hi, I'm</p>
+                <h1 class="name">Mohamed ElAmine</h1>
+                <h2 class="role"><span>WEB</span> <strong>DEVELOPER</strong></h2>
+                <p class="lead">I build modern, responsive and accessible websites. I focus on clean code, fast performance and pixel-perfect design — ready for production.</p>
+
+
+                <div class="actions">
+                    <a class="btn btn-solid" href="projects.html">Projects &lt;/&gt;</a>
+                    <a class="btn btn-outline" href="Amine_CV.pdf" download="Amine_CV.pdf">Hire Me</a>
+                </div>
+
+
+                <div class="meta">
+                    <div class="socials" aria-label="social links">
+                        <a aria-label="facebook" href="#" class="icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.06 5.66 21.19 10.44 21.95v-7.02H7.9v-2.86h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.77-1.61 1.56v1.86h2.74l-.44 2.86h-2.3V21.95C18.34 21.19 22 17.06 22 12.07z" fill="currentColor"/></svg></a>
+                        <a aria-label="instagram" href="https://www.instagram.com/mvvd_amvvne/" target="_blank" class="icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zM12 8.8a3.2 3.2 0 100 6.4 3.2 3.2 0 000-6.4zM17.7 6.1a.9.9 0 11-1.8 0 .9.9 0 011.8 0z" fill="currentColor"/></svg></a>
+                        <a aria-label="linkedin" href="https://www.linkedin.com/in/mohamed-elamine-akouttif-b64465352/" target="_blank" class="icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5a2.5 2.5 0 11.02 0zM3 8.5h4v12H3zM9 8.5h3.8v1.6h.1c.5-.9 1.8-1.8 3.6-1.8 3.9 0 4.6 2.6 4.6 6v7.6h-4v-6.7c0-1.6 0-3.6-2.2-3.6-2.2 0-2.5 1.7-2.5 3.5v6.8H9v-12z" fill="currentColor"/></svg></a>
+                    </div>
+                    <p class="small">Available for freelance & full-time</p>
+                </div>
+            </div>
+
+
+        <div class="photo-wrap" aria-hidden="true">
+            <img src="photo.jpg" alt="Med Amine — profile" class="photo">
+        </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+<h3>Leave a Review</h3>
+<p class="muted">Tell me who you are and share your opinion about my work.</p>
+<form class="review-form" onsubmit="event.preventDefault(); alert('Thank you for your feedback!'); this.reset();">
+<div class="form-group">
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" required placeholder="Your full name">
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required placeholder="example@email.com">
+</div>
+<div class="form-group">
+<label for="review">Your Review</label>
+<textarea id="review" name="review" rows="5" required placeholder="Write your message..."></textarea>
+</div>
+<button type="submit" class="btn btn-solid">Send Review</button>
+</form>
+</section>
+    </main>
+</body>
+</html>
